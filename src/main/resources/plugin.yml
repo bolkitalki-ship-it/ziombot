@@ -1,0 +1,15 @@
+name: ZiomBot
+version: 2.0.0
+main: pl.ziom.ziombot.ZiomBotPlugin
+api-version: '1.21'
+authors: [Ziom]
+description: Zaawansowany bot utrzymujacy aktywnosc serwera z automatycznym respawnem.
+commands:
+  ziom:
+    description: Zarzadzanie ZiomBotem
+    usage: /ziom <spawn|kill|reload>
+    permission: ziombot.admin
+permissions:
+  ziombot.admin:
+    description: Pozwala zarzadzac ZiomBotem
+    default: op
