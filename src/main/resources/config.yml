@@ -1,0 +1,22 @@
+bot-name: ZiomBot
+
+hidden: true
+
+connection:
+  host: ziom.mcsh.gg
+  port: 25565
+  use-srv: true
+  reconnect-seconds: 20
+
+join-commands: []
+
+active: false
+
+location:
+  ==: org.bukkit.Location
+  world: VoidG
+  x: 1.0427015913958657
+  y: 65.0
+  z: -0.7929825328916795
+  pitch: 8.400499
+  yaw: -25.381592
